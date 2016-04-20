@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1BC8AB11-1F10-4AC5-A452-E00955405312</string>
+	<key>IDESourceControlProjectName</key>
+	<string>droneloop~</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F92BF9F53E005DD1A8B8403E5E861ABD113F535E</key>
+		<string>bitbucket.org:martin_gasser/droneloop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>droneloop~.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F92BF9F53E005DD1A8B8403E5E861ABD113F535E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:martin_gasser/droneloop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F92BF9F53E005DD1A8B8403E5E861ABD113F535E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F92BF9F53E005DD1A8B8403E5E861ABD113F535E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>droneloop~</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8BFD331B11B9D70083706E /* droneloop~.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B8BFD321B11B9D70083706E /* droneloop~.cpp */; };
+		5B8BFD351B11B9E70083706E /* maxcpp6.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8BFD341B11B9E70083706E /* maxcpp6.h */; };
+		5B8BFD391B1340820083706E /* maxmspsdk.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5B8BFD381B1340820083706E /* maxmspsdk.xcconfig */; };
+		5B8BFD3B1B13408E0083706E /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8BFD3A1B13408E0083706E /* MaxAudioAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBBEAE508F335360078DB84 /* droneloop~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "droneloop~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8BFD321B11B9D70083706E /* droneloop~.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "droneloop~.cpp"; sourceTree = "<group>"; };
+		5B8BFD341B11B9E70083706E /* maxcpp6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maxcpp6.h; path = maxcpp/maxcpp6.h; sourceTree = "<group>"; };
+		5B8BFD381B1340820083706E /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = "<group>"; };
+		5B8BFD3A1B13408E0083706E /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8BFD3B1B13408E0083706E /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				5B8BFD381B1340820083706E /* maxmspsdk.xcconfig */,
+				5B8BFD3A1B13408E0083706E /* MaxAudioAPI.framework */,
+				5B8BFD321B11B9D70083706E /* droneloop~.cpp */,
+				36C5491F16F557E00054C037 /* maxcpp */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* droneloop~.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C5491F16F557E00054C037 /* maxcpp */ = {
+			isa = PBXGroup;
+			children = (
+				5B8BFD341B11B9E70083706E /* maxcpp6.h */,
+			);
+			name = maxcpp;
+			path = ../../maxcpp;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8BFD351B11B9E70083706E /* maxcpp6.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* droneloop~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "droneloop~" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8BFD391B1340820083706E /* maxmspsdk.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8BFD331B11B9D70083706E /* droneloop~.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8BFD381B1340820083706E /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8BFD381B1340820083706E /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				C74SUPPORT = "/Users/martin/devel/max-sdk-7.1.0/source/c74support";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/martin/devel/max-sdk-7.0.3/source/c74support/msp-includes",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/Developer/Headers/FlatCarbon,
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					../../maxcpp,
+				);
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				C74SUPPORT = "/Users/martin/devel/max-sdk-7.1.0/source/c74support";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/martin/devel/max-sdk-7.0.3/source/c74support/msp-includes",
+				);
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					/Developer/Headers/FlatCarbon,
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					../../maxcpp,
+				);
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "droneloop~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
